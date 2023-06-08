@@ -104,7 +104,7 @@ const openModal = () => {
 
   if (yourScoreSpan.textContent === "10") {
     //? eger kullanici 10 puana usalti ise kullanici kazanmistir.
-    finalMessagePar.textContent = "💃 You Win🕺";
+    finalMessagePar.textContent = "🎉 You Win🎉";
     document.querySelector(".modal").style.backgroundColor = GREEN;
     playAgainBtn.style.color = GREEN;
   } else {
